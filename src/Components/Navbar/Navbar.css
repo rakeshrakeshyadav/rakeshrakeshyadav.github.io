@@ -1,0 +1,43 @@
+#nav{
+  
+    display: flex !important;
+    justify-content:space-between;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition:  0.32s ease-in-out;
+  }
+  
+  
+  #navlink{
+    font-weight: 400;
+    color: rgb(19, 18, 18) !important;
+    letter-spacing: 1px;
+    padding: 0 30px;
+    font-size: 25px;
+    opacity: 0.75;
+    border-radius: 0%;
+    border-bottom: 0.5px solid #0DEFE5;
+    background-color: transparent;
+  
+  }
+  #navlink:hover{
+    border-bottom: 4px solid #830DEF;
+    transform: scale(1.5);
+    transition: all 0.2s;
+  
+  
+  }
+
+  #profile{
+
+    border-radius: 50%;
+     width:8%;
+   
+   }
+   
+  .App-link {
+    color: #61dafb;
+  }

@@ -5,7 +5,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 body {
   font-weight: 400;
@@ -15,106 +15,8 @@ body {
   color: rgb(19, 18, 18) !important;
   font-family: 'Centra', sans-serif !important;
 }
-#profile{
-
- border-radius: 50%;
-  width:8%;
-
-}
-#nav{
-  
-  display: flex !important;
-  justify-content:space-between;
-  padding: 15px 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 9999;
-  /* transition:  0.32s ease-in-out; */
-}
 
 
-#navlink{
-  font-weight: 400;
-  color: rgb(19, 18, 18) !important;
-  letter-spacing: 1px;
-  padding: 0 30px;
-  font-size: 25px;
-  opacity: 0.75;
-  border-radius: 0%;
-  border-bottom: 0.5px solid #0DEFE5;
-  /* background-color: transparent; */
-
-}
-#navlink:hover{
-  border-bottom: 4px solid #830DEF;
-  transform: scale(1.5);
-  transition: all 0.2s;
-
-
-}
-/* Banner*/
-.banner {
-  margin-top: 0;
-  padding: 150px 0 100px 0;
-  /* background-image: url('./assets/img/bg.jpg');
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat; */
-}
-.banner .tagline {
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  padding: 2px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  font-size: 30px;
-  border-radius:10px ;
-  margin-bottom: 16px;
-  display: inline-block;
-}
-.banner h1 {
-  font-size: 50px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 2;
-  margin-bottom: 20px;
-  background: #C1BDC7;
-  border-radius: 20px;
-
-  display: block;
-}
-.banner p {
-  color: rgb(19, 18, 18) !important;;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  width: 96%;
-  text-align: left;
-  
-}
-.banner button {
-  color:rgb(19, 18, 18);
-  font-weight: 700;
-  font-size: 20px;
-  margin-top: 60px;
-  letter-spacing: 0.8px;
-  display: flex;
-  align-items: center;
-}
-.banner button svg {
-  font-size: 25px;
-  margin-left: 10px;
-  /* transition: 0.3s ease-in-out; */
-  line-height: 1;
-}
-#pic{
-  background-color: #B3A5C9;
-  /* z-index: 20; */
-  width:120%;
-
-}
-/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;

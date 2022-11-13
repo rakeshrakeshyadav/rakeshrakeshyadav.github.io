@@ -1,5 +1,5 @@
 import { HamburgerIcon } from '@chakra-ui/icons';
-
+import './Navbar.css'
 import { Box, Hide, IconButton, Show,Text } from '@chakra-ui/react';
 import {
   Menu,
@@ -9,7 +9,7 @@ import {
   
 } from '@chakra-ui/react'
 import Nav from 'react-bootstrap/Nav';
-import profile from "../assets/img/profile.png"
+import profile from "../pic/profile.png"
 function NavBar() {
   return (
 
@@ -22,20 +22,23 @@ function NavBar() {
     <Hide below="sm">
         <Nav variant="pills" className="justify-content-center m-3  text-white fontsize-10">
           <Nav.Item>
-            <Nav.Link id="navlink"eventKey="Home">Home</Nav.Link>
+            <Nav.Link id="navlink"> Home</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link  id ="navlink"eventKey="Skills">Skills</Nav.Link>
+            <Nav.Link  id ="navlink">Skills</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link id ="navlink" eventKey="Project" >Projects</Nav.Link>
+            <Nav.Link id ="navlink"  >Projects</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link  id ="navlink"eventKey="Contact" >Contact</Nav.Link>
+            <Nav.Link  id ="navlink">Resume</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link  id ="navlink">Contact</Nav.Link>
           </Nav.Item>
         </Nav>
     </Hide>
-    <Show below="sm">
+    <Show below="lg">
     <Menu>
     <MenuButton
     as={IconButton}
