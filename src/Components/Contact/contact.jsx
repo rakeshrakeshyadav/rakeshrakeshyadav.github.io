@@ -102,7 +102,7 @@ function Contact() {
                  
                   alignItems="flex-start"
                 >
-                    <a href="www.linkedin.com/in/rakesh-k-yadav">
+                    <a href="https://www.linkedin.com/in/rakesh-kumar-yadav-88a5a6119/">
                       <IconButton
                         aria-label="linkedin"
                         variant="ghost"
