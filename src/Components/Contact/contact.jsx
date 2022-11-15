@@ -102,7 +102,7 @@ function Contact() {
                  
                   alignItems="flex-start"
                 >
-                    <a href="https://www.linkedin.com/in/akshay-rajput-422794220/">
+                    <a href="www.linkedin.com/in/rakesh-k-yadav">
                       <IconButton
                         aria-label="linkedin"
                         variant="ghost"
@@ -112,7 +112,7 @@ function Contact() {
                         icon={<FaLinkedinIn size="28px" />}
                       />
                     </a>
-                    <a href="https://github.com/actuallyakshay">
+                    <a href="https://github.com/rakeshrakeshyadav">
                       <IconButton
                         aria-label="github"
                         variant="ghost"
