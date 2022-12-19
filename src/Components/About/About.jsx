@@ -5,9 +5,8 @@ import "./About.css";
 
 const About = () => {
   return (
-    <>
-        <Box id="ABOUT" pt={2}>
-        <Flex justifyContent={"center"} mt="80px">
+    <Box mt="2em">
+        <Flex justifyContent={"center"} mt="80px" bgColor="#AFCDF0" w="80%" m="auto">
             <Text
             color="orange.500"
             fontSize="22px"
@@ -17,6 +16,7 @@ const About = () => {
             ABOUT
             </Text>
         </Flex>
+        <Box id="ABOUT" pt={2} mt="2em">
         
         <Grid
             w="90%"
@@ -160,7 +160,7 @@ const About = () => {
       </Grid>
     </Box>
     
-    </>
+    </Box>
   );
 };
 export default About;
