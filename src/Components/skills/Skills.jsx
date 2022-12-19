@@ -17,7 +17,7 @@ import SkillsCard from "./SkillsCard";
 const data = [
   { name: "HTML", icon: <SiHtml5 size="5.5rem" color="#ff6637" /> },
   { name: "CSS", icon: <SiCss3 size="5.5rem" color="#6767ff" /> },
-  { name: "Javascript", icon: <SiJavascript size="5.5rem" color="#228b22" /> },
+  { name: "Javascript", icon: <SiJavascript size="5.5rem"  color="#228b22" /> },
   { name: "NodeJs", icon: <IoLogoNodejs size="5.5rem" color="#228b22" /> },
   { name: "React", icon: <SiReact size="5.5rem" color="#61dafb" /> },
   { name: "ExpressJs", icon: <SiExpress size="5.5rem" color="gray" /> },
@@ -29,7 +29,7 @@ const data = [
 
 function Skills() {
   return (
-    <Box w="100%">
+    <Box w="100%" id="skills">
     
       <Flex justifyContent={"center"} m="80px" bgColor="#AFCDF0">
             <Text
@@ -44,7 +44,7 @@ function Skills() {
         </Flex>
     <Box id="skills" w="70%" m="auto">
 
-      { <Grid templateColumns='repeat(5, 1fr)' gap={5}>
+      { <Grid templateColumns={{lg:"repeat(5,1fr)" ,md:"repeat(3,1fr)",base:"repeat(3,1fr)"}}  gap={20}>
          {data.map((el) => (
           <Box
             key={el.name}

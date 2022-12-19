@@ -22,12 +22,12 @@ const ProjectCard = ({ project }) => {
     techStack,
     time,
     About,
-    month,
+  
   } = project;
 
-  // https://cdn-icons-png.flaticon.com/512/25/25231.png
+  
   return (
-    <Box>
+    <Box >
       <Text m="0" py="5">
        
         {Title}---{projectType}
@@ -80,7 +80,7 @@ const ProjectCard = ({ project }) => {
             onClick={() => window.open(gitlink)}
             style={{
               borderRadius: "12px",
-              backgroundImage: "linear-gradient(to right top, #64d9e8, #34dfdf, #00e3cd, #00e6b3, #38e791)",
+              background: "#002D55",
               boxShadow: "0px 20px 24px 3px rgba(251,161,40,0,42)",
             }}
             >
@@ -89,7 +89,7 @@ const ProjectCard = ({ project }) => {
           <Button
             style={{
                 borderRadius: "12px",
-                backgroundImage: "linear-gradient(to right top, #64d9e8, #34dfdf, #00e3cd, #00e6b3, #38e791)",
+                background: "#002D55",
               boxShadow: "0px 20px 24px 3px rgba(251,161,40,0,42)",
             }}
             onClick={() => window.open(deploy)}

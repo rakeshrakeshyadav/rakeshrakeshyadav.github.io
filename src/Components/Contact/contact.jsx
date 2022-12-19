@@ -31,17 +31,18 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Contact() {
   return (
-    <Box id="CONTACT">
-      <Flex w="full" justifyContent={"center"}>
-        <Text
-          color="orange.500"
-          fontSize="22px"
-          letterSpacing="20px"
-          fontWeight="700"
-        >
-          CONTACT ME
-        </Text>
-      </Flex>
+    <Box id="contact">
+       <Flex justifyContent={"center"} m="80px" bgColor="#AFCDF0">
+            <Text
+            color="orange.500"
+            fontSize="22px"
+            letterSpacing="10px"
+            fontWeight="900"
+
+            >
+            Contact
+            </Text>
+        </Flex>
       <Container
         maxW="full"
       >
@@ -50,8 +51,10 @@ function Contact() {
           w={{ base: "full", lg: "60%" }}
           gap="3"
           m="auto"
+          
+          boxShadow='2xl'
         >
-            <Box>
+            <Box border="1px solid red" bgColor="#222425">
               <Box>
                 <br />
                 

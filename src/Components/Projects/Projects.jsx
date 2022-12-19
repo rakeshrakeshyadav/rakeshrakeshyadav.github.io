@@ -46,7 +46,7 @@ const Projects = () => {
   ]
    
   return (
-    <Box  id='project'   pt={{base:'60px',lg:'2'}}> 
+    <Box  id='project'   pt={{base:'60px',lg:'20'}}> 
         <Flex justifyContent={"center"} m="80px" bgColor="#AFCDF0">
             <Text
             color="orange.500"
@@ -62,22 +62,25 @@ const Projects = () => {
       {project.map((project) => {
         return (
          
-          <Box
+          <Grid
             key={project.id}
-            
+            mt={{lg:"2rem", md:"1rem", base:"0.5rem"}}
+           
+           
             style={{
-              backgroundImage: 'linear-gradient(to right top, #c9bff2, #b9d6fa, #c2e7f6, #def4f3, #fcfefd)',
+              background:'#5899B6',
               padding:'0px',
-              background:'background-image: linear-gradient(to right top, #64d9e8, #34dfdf, #00e3cd, #00e6b3, #38e791)',
+              // background:'linear-gradient(to right top, #0a57dc, #0087fb, #00a7e1, #00c0a3, #2dd15e)',
               color: '#fff',
               borderRadius: 15,
               boxShadow:
                 '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
+              
             }}
           
           >
             <ProjectCard project={project} />
-          </Box>
+          </Grid>
        
         );
       })}

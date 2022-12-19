@@ -1,12 +1,18 @@
-import { Box, Flex, Text, Grid, Image, Heading } from "@chakra-ui/react";
+import { Box, Flex, Text, Grid, Image, Heading, Button } from "@chakra-ui/react";
 import { motion} from "framer-motion";
-import { CalendarIcon } from "@chakra-ui/icons";
+import { CalendarIcon,DownloadIcon} from "@chakra-ui/icons";
 import "./About.css";
 
+import resume from "../Resume/Rakesh_Yadav_Resume.pdf"
+
 const About = () => {
+  const downloadTxtFile = (e) =>{
+    e.href = "https://drive.google.com/file/d/1ln87u2TaNJ619qlEcVoXX7Q3T8pC73V3/view?usp=sharing";
+    e.download = resume;
+    }
   return (
-    <Box mt="2em">
-        <Flex justifyContent={"center"} mt="80px" bgColor="#AFCDF0" w="80%" m="auto">
+    <Box mt="2em" id="about">
+        <Flex justifyContent={"center"} mt="80px" bgColor="#AFCDF0" w="90%" m="auto">
             <Text
             color="orange.500"
             fontSize="22px"
@@ -91,20 +97,20 @@ const About = () => {
             <Heading letterSpacing={"1px"} size="md">
               SPATIAL DATA SPECIALIST-I
             </Heading>
-              <Text letterSpacing={"1px"} as="i" fontWeight={"400"}>
+              <Text letterSpacing={"1px"}  fontWeight={"400"}>
                  HERE TECHNOLOGIES, NAVI MUMBAI
               </Text>
-            <Heading letterSpacing={"1px"} as="i" size="sm">
+            <Heading letterSpacing={"1px"}  size="sm">
               
               Duration
             </Heading>
             <Text letterSpacing={"1px"}>09/2019 – 03/2021</Text>
 
-            <Heading letterSpacing={"1px"} as="i" size="sm">
+            <Heading letterSpacing={"1px"}  size="sm">
               Responsibilities
             </Heading>
               <Text>
-                3-D juction Maintainence
+                3-D Juctions Maintainence
               </Text>
               <Text>
                 Work Allocation 
@@ -130,7 +136,7 @@ const About = () => {
         FULL STACK WEB DEVELOPMENT (Full Time)
       </Heading>
       
-        <Text letterSpacing={"1px"} as="i" fontWeight={"400"}>
+        <Text letterSpacing={"1px"} fontWeight={"400"}>
            Masai School, Bangalore <br />
           <CalendarIcon /> 05/22 to present | Remote
         </Text>
@@ -139,7 +145,7 @@ const About = () => {
         B.Sc (Computer Science)
       </Heading>
       
-        <Text letterSpacing={"1px"} as="i" fontWeight={"400"}>
+        <Text letterSpacing={"1px"}  fontWeight={"400"}>
            Smt.CHM College, Ulhasnagar <br />
           <CalendarIcon /> 2013 - 2016 <br />
         </Text>
@@ -148,7 +154,7 @@ const About = () => {
         HIGHER SECONDRY EDUCATION
       </Heading>
       
-        <Text letterSpacing={"1px"} as="i" fontWeight={"400"}>
+        <Text letterSpacing={"1px"}  fontWeight={"400"}>
            Sri Chaitanya, Visakhapatnam <br />
           <CalendarIcon /> 2011-2012 <br />
          
@@ -159,7 +165,15 @@ const About = () => {
        
       </Grid>
     </Box>
-    
+      <Box pt="2rem">
+      <a href="https://drive.google.com/file/d/1n7hcFnFdIC2XjLyi3AtQlNra5x8A_W6T/view?usp=sharing"
+        target="_blank"
+        download={true}>
+        <Button mt="2vw" bg={"blue.500"} color="white" _hover={{color : "black"}}
+       onClick={downloadTxtFile}
+      download={true}>Resume <DownloadIcon  color={"white"}/> </Button>
+        </a>       
+      </Box>            
     </Box>
   );
 };

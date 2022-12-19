@@ -1,12 +1,14 @@
 .card {
-    width: 190px;
-    height: 200px;
-    border-radius: 30px;
+    width: 10vw;
+    height: 12vh;
+    border-radius: 50%;
     background: #e0e0e0;
     box-shadow: 15px 15px 30px #bebebe,
                 -15px -15px 30px #ffffff;
    }
 .card:hover{
     background:#928CB7;
+    transform: scale(1.2);
+    transition: all 0.2s;
     
 }

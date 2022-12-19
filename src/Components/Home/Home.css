@@ -4,10 +4,11 @@
   }
   #typeWriter{
     color:red;
-    font-size: 25px;
+    font-size: 2rem;
+    margin-left: 2rem;
   }
   .banner {
-    padding-top: 180px;
+    padding-top: 30vh;
     
    
   }
@@ -24,14 +25,14 @@
     border: 2px solid red;
   }
   .banner h1 {
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 2;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     background: #C1BDC7;
-    border-radius: 20px;
+    border-radius: 1rem;
     display: block;
     width:80%;
     border: 2px solid cyan;

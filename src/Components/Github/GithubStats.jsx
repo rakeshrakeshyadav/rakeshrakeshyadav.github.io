@@ -22,10 +22,10 @@ function Github() {
   };
 
   return (
-    <Box  pt={{base:'60px',lg:'2'}} w='full'  m='auto'  id='Github'  >
+    <Box  pt={{base:'60px',lg:'2'}} w='full'  m='auto'  id='Github' >
     
     
-    <Flex justifyContent={"center"} m="80px" bgColor="#AFCDF0">
+    <Flex justifyContent={"center"} m={{lg:"80px",base:"0"}} bgColor="#AFCDF0"  w={{lg:"90%",base:"100%"}}>
             <Text
             color="orange.500"
             fontSize="22px"
@@ -36,38 +36,21 @@ function Github() {
             GITHUB STATS AND CONTRIBUTATION 
             </Text>
         </Flex>
-       
-     
-     
-      <Flex  flexDir='column' align='center' mt='10' >
 
-        <Box padding='4' >
-         
-
+      <Grid  w={{lg:"80%",base:"100%"}} m="auto" bgColor="#A9ABAD" p="2em">
+        <Box padding='4' m="auto">
         <GitHubCalendar
           username="rakeshrakeshyadav"
           transformData={selectLastHalfYear}          
           />
     
-          </Box>
-     
-   
-      
-        
-        <Flex>
-
-        <Image src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakeshrakeshyadav&layout=compact&theme=nord&border_radius=30" />
+          </Box>        
+        <Grid templateColumns={{lg:"repeat(2,1fr)"}} mt="3em">
         <Image src="https://github-readme-stats.vercel.app/api?username=rakeshrakeshyadav&count_private=true&theme=nord&border_radius=30" />
         <Image  src="https://streak-stats.demolab.com/?user=rakeshrakeshyadav&theme=nord&border_radius=30&date_format=M%20j%5B%2C%20Y%5D" />
-        
-
-        
-        
-
-        
-        </Flex>
+        </Grid>
       
-      </Flex>
+      </Grid>
     </Box>
   );
 }
