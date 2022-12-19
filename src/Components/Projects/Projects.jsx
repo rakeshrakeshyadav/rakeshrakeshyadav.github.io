@@ -47,9 +47,17 @@ const Projects = () => {
    
   return (
     <Box  id='project'   pt={{base:'60px',lg:'2'}}> 
-       <Box  className="skillsHeader"  mt='5' mb='25'>
-                  <h2  >PROJECTS</h2>
-              </Box>
+        <Flex justifyContent={"center"} m="80px" bgColor="#AFCDF0">
+            <Text
+            color="orange.500"
+            fontSize="22px"
+            letterSpacing="10px"
+            fontWeight="900"
+            
+            >
+            PROJECTS
+            </Text>
+        </Flex>
     <Box  className="vertical-line"  w="40%" m="auto">
       {project.map((project) => {
         return (
