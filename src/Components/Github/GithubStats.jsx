@@ -1,4 +1,4 @@
-import { Box, Flex, Grid,  Image } from "@chakra-ui/react";
+import { Box, Flex, Grid,  Image, Text } from "@chakra-ui/react";
 import React from "react";
 import {motion} from "framer-motion"
 import GitHubCalendar from "react-github-calendar";
@@ -25,9 +25,17 @@ function Github() {
     <Box  pt={{base:'60px',lg:'2'}} w='full'  m='auto'  id='Github' border="1px solid red" >
     
     
-        <Box  className="skillsHeader" >
-        <h2 > GITHUB STATS </h2>
-        </Box>
+    <Flex justifyContent={"center"} m="80px" bgColor="#AFCDF0">
+            <Text
+            color="orange.500"
+            fontSize="22px"
+            letterSpacing="5px"
+            fontWeight="900"
+            
+            >
+            GITHUB STATS AND CONTRIBUTATION 
+            </Text>
+        </Flex>
        
      
      
