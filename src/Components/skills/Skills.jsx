@@ -9,7 +9,7 @@ import {
   SiRedux,
 } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io";
-import { Box, Flex, Grid, GridItem, Text} from "@chakra-ui/react";
+import { Box, Flex, Grid, Text} from "@chakra-ui/react";
 
 
 import "./Skills.css"

@@ -11,7 +11,7 @@ const About = () => {
     e.download = resume;
     }
   return (
-    <Box mt="2em" id="about">
+    <Box mt="4em" id="about">
         <Flex justifyContent={"center"} mt="80px" bgColor="#AFCDF0" w="90%" m="auto">
             <Text
             color="orange.500"

@@ -48,15 +48,13 @@ const Projects = () => {
   ]
    
   return (
-    <Box  id='project'   pt={{base:'60px',lg:'20'}}> 
-        <Flex justifyContent={"center"} mt="80px" bgColor="#AFCDF0" w={{lg:"90%",base:"100%"}} m="auto">
+    <Box  id='project'  mt="80px" pt={{base:'60px',lg:'4rem'}}> 
+        <Flex justifyContent={"center"}  bgColor="#AFCDF0" w={{lg:"90%",base:"100%"}} m="auto">
             <Text
             color="orange.500"
             fontSize="22px"
             letterSpacing="10px"
-            fontWeight="900"
-            
-            >
+            fontWeight="900" >
             PROJECTS
             </Text>
         </Flex>
