@@ -54,7 +54,7 @@ function Contact() {
           
           boxShadow='2xl'
         >
-            <Box border="1px solid red" bgColor="#222425">
+            <Box bgColor="#222425">
               <Box>
                 <br />
                 

@@ -6,8 +6,8 @@ const SkillsCard = ({key,icon,name}) => {
   return (
     <>
     
-    <Flex className="card" justifyContent={"center"} alignItem={"center"}  mt={{lg:"3em", base:"0"}}>
-        <Flex justifyContent={"center"} mt={2}>
+    <Flex className="card" justifyContent={"center"} alignItem={"center"}  mt={{lg:"3em", base:"0"}} border="none">
+        <Flex justifyContent={"center"} mt={2} mixBlendMode="multiply">
         {icon}
         </Flex>
         <Text mt="2em" fontSize={{base:"0.5em",md:"1rem",lg:"1.5rem"}}>{name}</Text>
