@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e23aeeae.css",
-    "main.js": "/static/js/main.1ea31c42.js",
+    "main.js": "/static/js/main.025a5c61.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/profile.png": "/static/media/profile.7314b9b770df5a94d0d2.png",
     "static/media/Rakesh_Yadav_Resume.pdf": "/static/media/Rakesh_Yadav_Resume.ae7d86d5942d92591c3b.pdf",
     "index.html": "/index.html",
     "main.e23aeeae.css.map": "/static/css/main.e23aeeae.css.map",
-    "main.1ea31c42.js.map": "/static/js/main.1ea31c42.js.map",
+    "main.025a5c61.js.map": "/static/js/main.025a5c61.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e23aeeae.css",
-    "static/js/main.1ea31c42.js"
+    "static/js/main.025a5c61.js"
   ]
 }
