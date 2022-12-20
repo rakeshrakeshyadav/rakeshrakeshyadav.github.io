@@ -27,7 +27,7 @@ const ProjectCard = ({ project }) => {
 
   
   return (
-    <Box >
+    <Box  w={{base:"100%"}}>
       <Text m="0" py="5">
        
         {Title}---{projectType}

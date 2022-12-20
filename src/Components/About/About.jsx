@@ -33,41 +33,33 @@ const About = () => {
             gridTemplateColumns={{ base: "none", md: "1fr 2fr" }}
           
         >
-           <motion.div style={{
+           <Box style={{
                 display:"flex",
                 alignItems:"center",
                 justifyContent:"center",
                 padding:"0px 5px",
                 }}
-                initial={{
-                    x:-200,
-                    opacity:0,
-                    }}
-                transition={{duration:0.8}} whileInView={{opacity:1,x:0}}>
+                >
  <Image
             src="https://i.ibb.co/zQq0Rdz/profile.png"
             borderRadius="50%"
             w={{ base: "250px", md: "50%", lg:"50%"}}
             />
-                </motion.div>
+                </Box>
            
-            <motion.div style={{
+            <Box style={{
                 display:"flex",
                 alignItems:"center",
                 justifyContent:"center",
                 padding:"0px 5px",
                 }}
-                initial={{
-                    x:-200,
-                    opacity:0,
-                    }}
-                transition={{duration:0.8}} whileInView={{opacity:1,x:0}}>
+                >
                 <Text letterSpacing={"1px"}  w={{sm:"100%",lg:"80%"}} fontWeight={"400"} lineHeight="2">
                     Hello Everyone ,I am Rakesh Kumar Yadav from Mumbai.
                     I have completed my graduation in Bachelor of Science (Computer Science) from Smt.CHM College.
                     After completing my graduation I joined Here Technologies, Navi Mumbai as a Spatial Data Specialist-I for 2 Years and 6 Months.
                 </Text>
-            </motion.div>
+            </Box>
         </Grid>
         <br />
         <br />

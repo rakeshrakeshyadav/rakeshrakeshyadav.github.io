@@ -32,7 +32,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Contact() {
   return (
     <Box id="contact">
-       <Flex justifyContent={"center"} m="80px" bgColor="#AFCDF0">
+       <Flex justifyContent={"center"} m="80px" bgColor="#AFCDF0" w={{lg:"90%",base:"100%"}}>
             <Text
             color="orange.500"
             fontSize="22px"

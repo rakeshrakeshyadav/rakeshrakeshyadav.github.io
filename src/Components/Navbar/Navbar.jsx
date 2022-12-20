@@ -2,17 +2,13 @@ import {
   HamburgerIcon,
   AddIcon,
   ExternalLinkIcon,
-  RepeatIcon,
-  EditIcon,
   LinkIcon,
-  AttachmentIcon,
   PhoneIcon,
   StarIcon,
-  ViewIcon,
   InfoIcon,
 } from "@chakra-ui/icons";
 import './Navbar.css'
-import { Box,Flex, Hide, IconButton, Show,Text } from '@chakra-ui/react';
+import { Box,Flex, IconButton,Text } from '@chakra-ui/react';
 import {
   Menu,
   MenuButton,
@@ -21,7 +17,7 @@ import {
   
 } from '@chakra-ui/react'
 
-import profile from "../pic/profile.png"
+import profile from "../images/profile.png"
 import {Link} from 'react-scroll';
 function NavBar() {
   return (

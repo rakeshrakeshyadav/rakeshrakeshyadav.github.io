@@ -1,53 +1,55 @@
 import { Box, Flex, Grid, Text } from '@chakra-ui/react'
 import React from 'react'
 import ProjectCard  from './ProjectCard';
-
+import Zoomcar from "../images/Zoomcar.png"
+import emailomatic from "../images/emailomatic.PNG"
+import Bontime from "../images/Bontime.PNG"
 const Projects = () => {
   const project = [{
 
     id:2,
-    imageUrl: "Zoomcar",
+    imageUrl: Zoomcar,
     imageAlt: 'Zoom Car',
     techStack: ['HTML','CSS','JavaScript','Bootstrap' ],
     About: 'Rent car application with a very interactive UI and lots of things to learn while working. It provides customers their service at different modes , and allow to hire car and also on rent.',
     Title: 'ZOOM CAR',
     time: 'Completed in 5 Days',
-    projectType: 'Group',
-    gitlink: 'https://github.com/zuhedshaikh95/low-head-7683',
-    deploy: 'https://magical-kashata-a20ef2.netlify.app',
-    month:"2 month",
+    projectType: 'Individual',
+    gitlink: 'https://github.com/rakeshrakeshyadav/reflective-decision-5937',
+    deploy: 'https://zoomcar1.netlify.app/',
+   
   },
   {
     id:3,
-    imageUrl:"Sendinlue",
-    imageAlt: 'SendinBlue',
-    techStack: ["JavaScript", "Bootstrap", "HTML" ,"CSS"  ],
-    About: 'Sendinblue is the smartest and most intuitive platform for growing businesses and empowering B2B and B2C businesses, ecommerce sellers and agencies to build customer relationships.',
-    Title: 'SENDINBLUE',
+    imageUrl:Bontime,
+    imageAlt: 'Bonsai',
+    techStack: ["JavaScript", "REACT","CHAKRA UI", "HTML" ,"CSS"  ],
+    About: 'Bonsai is building the global operating system for freelance work.The way the world works is changing. Companies want on-demand talent rather than full time employees. Workers want flexible and independent careers. This is one of the largest socio-economic shifts since the Industrial Revolution.',
+    Title: 'BONTIME',
     time: 'Completed in 5 Days',
-    projectType: 'Individual',
-    gitlink: 'https://github.com/Raj-1313/ossified_church_1296',
-    deploy: 'https://boisterous-malabi-45100c.netlify.app',
-    month:"3 month",
+    projectType: 'Group',
+    gitlink: 'https://github.com/ajay329/BONSAI-CLONE',
+    deploy: 'https://eclectic-halva-300fe0.netlify.app/',
+    
   },
   {
     id:1,
-    imageUrl: "airgarage",
-    imageAlt: 'AirGarage',
-    techStack: [ "JavaScript", "HTML" ,"CSS", "React" , "Chakra UI" ],
-    About: 'AirGarage is a full service parking operator and a site that allows users to locate parking along with price and rating.',
-    Title: 'AIR GARAGE',
+    imageUrl: emailomatic,
+    imageAlt: 'Emailomatic',
+    techStack: [ "JavaScript", "HTML" ,"CSS", "React" , "Chakra UI","NODEJS","EXPRESS" ],
+    About: "Grow your business on your terms with Emailomatic's All-In-One marketing, automation & email marketing platform",
+    Title: 'EMAILOMATIC',
     time: 'Completed in 5 Days',
-    projectType: 'Individual',
-    gitlink: 'https://github.com/Raj-1313/Raj-1313--slow-argument-2201/tree/main/my-app',
-    deploy: 'https://my-app-nu-indol.vercel.app',
-    month:"1 month",
+    projectType: 'Group',
+    gitlink: 'https://github.com/VinayKumar1801/rebel-hook-6465',
+    deploy: 'https://emailomatic.netlify.app/',
+    
   }
   ]
    
   return (
     <Box  id='project'   pt={{base:'60px',lg:'20'}}> 
-        <Flex justifyContent={"center"} m="80px" bgColor="#AFCDF0">
+        <Flex justifyContent={"center"} mt="80px" bgColor="#AFCDF0" w={{lg:"90%",base:"100%"}} m="auto">
             <Text
             color="orange.500"
             fontSize="22px"

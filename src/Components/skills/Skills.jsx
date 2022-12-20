@@ -31,7 +31,7 @@ function Skills() {
   return (
     <Box w="100%" id="skills">
     
-      <Flex justifyContent={"center"} m="80px" bgColor="#AFCDF0">
+      <Flex justifyContent={"center"} m="80px" bgColor="#AFCDF0" >
             <Text
             color="orange.500"
             fontSize="22px"
