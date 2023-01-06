@@ -14,8 +14,8 @@ function Github() {
       const monthOfDay = date.getMonth();
 
       return (
-        date.getFullYear() === currentYear &&
-        monthOfDay > currentMonth - shownMonths &&
+        date.getFullYear() === currentYear ||
+        monthOfDay > currentMonth - shownMonths ||
         monthOfDay <= currentMonth
       );
     });
